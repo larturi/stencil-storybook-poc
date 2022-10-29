@@ -31,6 +31,11 @@ To run the unit tests for the components, run:
 npm test
 ```
 
+To create a new component with stencil:
+```bash
+npm run generate
+```
+
 # Storybook Starter
 
 This is a starter project for building a standalone Web Component using Stencil.
