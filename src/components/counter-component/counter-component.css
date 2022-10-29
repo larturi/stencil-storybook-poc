@@ -1,0 +1,62 @@
+:host {
+  display: block;
+  --btn-color: #051d36;
+  --btn-hover: #0d4684;
+  --btn-text-color: white;
+}
+
+.counter {
+  height: 40px;
+  color: #fff;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.counter.primary {
+  background-color: blue;
+}
+
+.counter.dark {
+  background-color: black;
+}
+
+.principal-container {
+  width: 250px;
+}
+
+.reset-container button {
+  width: 100%;
+}
+
+button {
+  background: var(--btn-color);
+  color: var(--btn-text-color);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-container button {
+  width: 50%;
+  height: 50%;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+.help {
+  font-size: 13px;
+  color: grey;
+  padding: 12px 2px;
+  text-align: center;
+  border: solid 1px var(--btn-color);
+}

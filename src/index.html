@@ -9,6 +9,12 @@
     <script nomodule src="/build/ssss.js"></script>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <counter-component
+      btn_increase_text = "+"
+      btn_decrease_text = "-"
+      color="dark"
+    >
+      <div slot="help">Lorem ipsum dolor sit amet.</div>
+    </counter-component>
   </body>
 </html>
